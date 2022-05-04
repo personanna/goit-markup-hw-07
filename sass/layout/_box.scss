@@ -36,10 +36,10 @@
     padding-top: 27px;
 }
 
-.box-item:not(:last-child) {
-    margin-right: 30px;
-}
-
 .box-item {
     position: relative;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
